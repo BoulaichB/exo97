@@ -7,6 +7,7 @@
 let exercice = document.querySelector('h2:nth-child(3)');
 console.log(exercice.textContent);
 // ### 2. Trouve le moyen de modifier sa valeur par "Exercice 1"
+exercice.innerText = "Exercice 1";
 // ### 3. Récupère l'élément p juste en dessous ce h2 et rajoute y la ligne js utilisé pour résoudre l'exercice 2.
 // ### 4. Récupère la première section et trouve le moyen d'affiche juste le nom de l'id dans la console
 // ### 5. Récupère le premier h1 et trouve le moyen d'afficher juste le nom de la class dans la console ( attention il existe deux propriétés pour afficher les class, fait l'exercice avec l'une et puis avec l'autre !)
