@@ -30,4 +30,6 @@ console.log(input.attributes);
 // ### 8. Trouve le moyen de récupérer la valeur dans l'attribut type du premier input
 console.log(input.getAttribute('type'));
 // ### 9. Récupère l'input dont l'id est "inputPassword3" et ajoute lui un attribut "type" dont la valeur est "password"
+let inputPassword = document.querySelector("#inputPassword3");
+inputPassword.setAttribute('type', 'password');
 // ### 10. Modifie la valeur de l'attribut "type" du premier input avec la valeur "color"
