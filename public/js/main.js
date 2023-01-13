@@ -15,6 +15,9 @@ paragraphe.innerText = "exercice.innerText = 'Exercice 1'";
 let section1 = document.querySelector("#users");
 console.log(section1.getAttribute('id'));
 // ### 5. Récupère le premier h1 et trouve le moyen d'afficher juste le nom de la class dans la console ( attention il existe deux propriétés pour afficher les class, fait l'exercice avec l'une et puis avec l'autre !)
+let h1 = document.querySelector('h1');
+console.log(h1.getAttribute('class'));
+console.log(h1.classList.value);
 // ### 6. Avec l'aide d'un forEach affiche le nom de class de chaque h1
 // ### 7. Trouve une propriété pour afficher tous les attributs du premier input
 // ### 8. Trouve le moyen de récupérer la valeur dans l'attribut type du premier input
