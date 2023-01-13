@@ -19,6 +19,11 @@ let h1 = document.querySelector('h1');
 console.log(h1.getAttribute('class'));
 console.log(h1.classList.value);
 // ### 6. Avec l'aide d'un forEach affiche le nom de class de chaque h1
+console.log("Tous les h1");
+let allH1 = document.querySelectorAll('h1');
+allH1.forEach(element => {
+    console.log(element.getAttribute('class'));
+});
 // ### 7. Trouve une propriété pour afficher tous les attributs du premier input
 // ### 8. Trouve le moyen de récupérer la valeur dans l'attribut type du premier input
 // ### 9. Récupère l'input dont l'id est "inputPassword3" et ajoute lui un attribut "type" dont la valeur est "password"
