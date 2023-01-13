@@ -25,6 +25,8 @@ allH1.forEach(element => {
     console.log(element.getAttribute('class'));
 });
 // ### 7. Trouve une propriété pour afficher tous les attributs du premier input
+let input = document.querySelector('input');
+console.log(input.attributes);
 // ### 8. Trouve le moyen de récupérer la valeur dans l'attribut type du premier input
 // ### 9. Récupère l'input dont l'id est "inputPassword3" et ajoute lui un attribut "type" dont la valeur est "password"
 // ### 10. Modifie la valeur de l'attribut "type" du premier input avec la valeur "color"
