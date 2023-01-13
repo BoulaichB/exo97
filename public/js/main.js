@@ -33,3 +33,4 @@ console.log(input.getAttribute('type'));
 let inputPassword = document.querySelector("#inputPassword3");
 inputPassword.setAttribute('type', 'password');
 // ### 10. Modifie la valeur de l'attribut "type" du premier input avec la valeur "color"
+input.setAttribute('type', 'color');
